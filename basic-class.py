@@ -15,6 +15,7 @@ class School:
     def teach(self):
         print(f'Subject we\'re open {self.subject}')
 
+
 class Student(School):
     def __init__(self, fullname=None, grade=None, scores=None, subject=None):
         super().__init__(subject)
@@ -25,7 +26,7 @@ class Student(School):
     def score_check(self):
         if self.scores >= 80:
             print(f'Subject {self.subject} is A')
-        elif self.scores >=70:
+        elif self.scores >= 70:
             print(f'Subject {self.subject} is B')
         elif self.scores >= 60:
             print(f'Subject {self.subject} is C')
@@ -34,11 +35,12 @@ class Student(School):
         else:
             print(f'Subject {self.subject} is F')
 
-#Instance
-#school01 = School()
-#print(school01.schoolname)
-#school01.hello()
-#school01.teach()
+
+# Instance
+# school01 = School()
+# print(school01.schoolname)
+# school01.hello()
+# school01.teach()
 print('================================================================')
 student01 = Student('Toyota Tsusho', 3, 75, 'Math')
 student01.hello()
