@@ -1,0 +1,16 @@
+import school # เรียกไฟล์ที่จะดึงค่่ามา
+from school import example class, example class2,... # เรียกบางคลาสมาใช้
+from school import * # เรียกทุกคลาส 
+if __name__ == "__main__"  #  เมื่อ __name__ เป็นไฟล์หลัก __main__ ถึงจะทำงาน
+
+Car type
+1.Engine type
+2.Fuel type
+3.Sunroof
+4.Wheel type
+
+str1 = '1234567890'
+list1 = lit1[{start_index}::{step}]
+
+
+a, b = b, a
