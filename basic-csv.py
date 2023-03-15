@@ -11,7 +11,7 @@ def read_csv():
         data = list(fr)
     return data
 
-#data = read_csv()
-#print(data)
-data = ['Americano',55,'8.00 น.']
-write_csv(data)
+data = read_csv()
+print(data)
+#data = ['Americano',55,'8.00 น.']
+#write_csv(data)

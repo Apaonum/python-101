@@ -1,0 +1,17 @@
+﻿cartype,Engine type,Fuel type,Sunroof,Wheel type,,,,,0,1
+A,0,0,0,0,,,,Engine type,Diesel,Gasoline
+B,0,0,0,1,,,,Fuel type,Diesel,Gasohal
+C,0,0,1,0,,,,Sunroof,NO,Yes
+D,0,0,1,1,,,,Wheel type,2WD,4WD
+E,0,1,0,0,,,,,,
+F,0,1,0,1,,,,,,
+G,0,1,1,0,,,,,,
+H,0,1,1,1,,,,,,
+I,1,0,0,0,,,,,,
+J,1,0,0,1,,,,,,
+K,1,0,1,0,,,,,,
+L,1,0,1,1,,,,,,
+M,1,1,0,0,,,,,,
+N,1,1,0,1,,,,,,
+O,1,1,1,0,,,,,,
+P,1,1,1,1,,,,,,
