@@ -37,10 +37,10 @@ class Student(School):
 
 
 # Instance
-# school01 = School()
+school01 = School()
 # print(school01.schoolname)
-# school01.hello()
-# school01.teach()
+school01.hello()
+school01.teach()
 print('================================================================')
 student01 = Student('Toyota Tsusho', 3, 75, 'Math')
 student01.hello()

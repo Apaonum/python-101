@@ -14,3 +14,13 @@ list1 = lit1[{start_index}::{step}]
 
 
 a, b = b, a
+
+# การทำ unittest
+import unittest
+
+def squarefunction(x):
+    return x**2
+
+class TestNameofclass(unittest.Testcase)
+    def test_Nameofclass(self):
+        self.
